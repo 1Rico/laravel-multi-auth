@@ -1,11 +1,15 @@
 <?php
 namespace App\Http\Controllers;
+
+/**
+ * Class AdminController
+ * @package App\Http\Controllers
+ */
 class AdminController extends Controller
 {
+
     /**
-     * Create a new controller instance.
-     *
-     * @return void
+     * AdminController constructor.
      */
     public function __construct()
     {
@@ -18,6 +22,6 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('admin.dashboard');
+        return view('admin_home');
     }
 }
